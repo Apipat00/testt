@@ -1,0 +1,47 @@
+html, body{
+    background-color: rgb(217, 208, 233)
+    ;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: white;
+    overflow: hidden;
+  }
+ .navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+ .navbar a:hover {
+    background-color: rgb(113, 204, 204);
+    color: white;
+  }
+ .navbar a.active {
+    background-color: #e26a25;
+    color: rgb(255, 255, 255);
+  }
+
+  .frame{
+    background-color: white;
+    padding: 15 15;
+    margin-top: 10%;
+    text-align: center;
+    border-radius: 5px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.buttonExit{
+    background-color:rgb(218, 59, 59);
+    color: white;
+    padding: 8 8;
+    text-decoration: none;
+    border-radius: 5px;
+}
